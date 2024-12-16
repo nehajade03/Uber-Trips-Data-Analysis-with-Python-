@@ -42,12 +42,12 @@ Base: Uber base code
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-repo-name.git
+git clone
 Install required libraries:
-bash
-Copy code
-pip install -r requirements.txt
+bash [Code](https://github.com/nehajade03/Uber-Trips-Data-Analysis-with-Python-/blob/main/Uber%20TRIPS%20DATA%20ANALYSIS.ipynb)
+Copy code 
 Run the Python scripts or Jupyter Notebook.
+
 ## **Data Cleaning**
 
 - Removed duplicates.
