@@ -53,7 +53,7 @@ This project focuses on analyzing Uber trip data, identifying key patterns, and 
 ---
 
 ## 🔮 Predict Your Fare!  
-We created a function to predict Uber fares based on trip details:  
+created a function to predict Uber fares based on trip details:  
 
 ```python
 def predict_fare(hour, passenger_count, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude):
