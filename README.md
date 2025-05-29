@@ -55,7 +55,6 @@ This project focuses on analyzing Uber trip data, identifying key patterns, and 
 ## 🔮 Predict Your Fare!  
 created a function to predict Uber fares based on trip details:  
 
-```python
 def predict_fare(hour, passenger_count, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude):
     # Function logic here
     return predicted_fare
@@ -63,10 +62,14 @@ predicted_price = predict_fare(13, 5, -73.9855, 40.7580, -74.0000, 40.7128)
 print(f"Predicted Fare Amount: ${predicted_price}")
 
 
-Conclusion & Insights
+## Conclusion & Insights
 
 📊 Peak-hour fares tend to be higher than non-peak fares.
+
 📊 Trip distance is strongly correlated with fare amount.
+
 📊 Passenger count has a minor impact on pricing.
+
 📊 The Random Forest model successfully predicts fares with high accuracy.
+
 📊 A/B testing indicates that a 10% fare increase significantly affects pricing.
